@@ -1,5 +1,5 @@
 import { React, Component } from "react";
-import MenuItem from "../menu-item/menu-item";
+import MenuItem from "../Menu-item/menu-item";
 import "./directory-menu.scss";
 class DirectoryMenu extends Component {
 	constructor() {
@@ -51,6 +51,7 @@ class DirectoryMenu extends Component {
 							title={element.title}
 							imageUrl={element.imageUrl}
 							size={element.size}
+							linkUrl={element.linkUrl}
 						/>
 					);
 				})}
