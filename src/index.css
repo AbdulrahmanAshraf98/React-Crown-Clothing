@@ -20,3 +20,12 @@ code {
   padding: 0;
   box-sizing: border-box;
 }
+a{
+  text-decoration: none;
+  color: #4a4a4a;
+  transition: color 0.3s ease;
+}
+a:active,a:focus{
+  color: #1f1e1e;
+  text-decoration: none;
+}
